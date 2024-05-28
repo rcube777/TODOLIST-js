@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.todolist{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+       
+}
+.container{
+    padding: 20px;
+    width: fit-content;
+    border: 2px solid black;
+    margin-top: 30px;
+    height: fit-content;
+    background-color: beige;
+    border-radius: 10px;
+}
+.heading h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.type-area{
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+input {
+    font-size: 2rem;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+.add-btn{
+    font-size: 1.9rem;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(7, 219, 7);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+.save-btn{
+    font-size: 1.8rem;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(191, 219, 7);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+.task-lists{
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 20px;
+
+}
+
+ul {
+    list-style: none;
+}
+ul li {
+    margin-bottom: 5px;
+
+}
+.delete-btn, .complete-btn{
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 31, 31);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.complete-btn{
+    background-color: skyblue;
+}
+
